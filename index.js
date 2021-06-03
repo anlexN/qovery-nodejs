@@ -24,8 +24,8 @@ function showTimes() {
       writeConcern: { wtimeout: 2500 },
     });
 
-    db = await client.db("heroku");
-    collection = await db.collection("n-node-js-getting-started");
+    db = await client.db("qovery");
+    collection = await db.collection("qovery-nodejs");
 
     express()
       .get("/", (req, res) => res.send('hello nodejs'))
