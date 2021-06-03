@@ -3,6 +3,8 @@ application:
   name: "qovery-nodejs"
   project: "qovery-nodejs"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 3000
 databases:
 - type: "MONGODB"
   name: "qovery"
